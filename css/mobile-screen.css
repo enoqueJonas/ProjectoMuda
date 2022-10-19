@@ -36,7 +36,37 @@ body {
 }
 
 .nav-menu {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  left: 0;
+  top: -15px;
+  width: 20.8em;
+  height: 42em;
+  background-color: rgba(0, 0, 0, .9);
+}
+
+.nav-item {
+  width: 8em;
+  height: 2em;
+  margin: 5px;
+}
+
+.nav-item-1 {
+  margin-top: 30px;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, .9);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1.6em;
+  left: 20em;
 }
 
 .logo {

@@ -2,6 +2,12 @@
   display: none;
 }
 
+.title {
+  display: flex;
+  align-items: center;
+  width: 11em;
+}
+
 .meeting-date-place {
   display: flex;
   flex-direction: column;
@@ -17,7 +23,7 @@
 }
 
 .place {
-  color: rgba(0, 0, 0, .9);
+  color: rgba(0, 0, 0, 1);
 }
 
 .logo-info {
