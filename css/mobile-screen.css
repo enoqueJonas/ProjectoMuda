@@ -172,6 +172,10 @@ body {
   transition: all ease-in-out 0.5s;
 }
 
+.see-program {
+    display: none;
+}
+
 .program-btn:hover {
   background-color: rgb(239 81 60 / 50%);
 }
@@ -207,6 +211,10 @@ body {
   display: flex;
   flex-direction: row;
   margin: 13px 0;
+}
+
+.featured-speakers-list-item-pc {
+    display: none;
 }
 
 .featured-speakers-list-item-img img {
@@ -272,4 +280,8 @@ body {
   width: 22px;
   height: 22px;
   margin: 4px;
+}
+
+.footer {
+    display: none;
 }
