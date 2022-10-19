@@ -1,3 +1,7 @@
+.social-media {
+  display: none;
+}
+
 .logo-info {
   display: flex;
   flex-direction: column;
