@@ -1,0 +1,98 @@
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 3.6em;
+    width: 11em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-text {
+    margin: 0;
+    padding: 0;
+    width: 55em;
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.meeting-date-place {
+    margin: 0;
+    padding: 0;
+    width: 38em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.date {
+    font-size: 1em;
+}
+
+.place {
+    font-weight: 10000;
+}
+
+.logo-info {
+    height: 25em;
+    box-shadow: .3px .3px .3px black;
+}
+
+.logo-info-title {
+    width: 30em;
+    margin-top: 1em;
+}
+
+.logo-info-title h2 {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.logo-info-img {
+    width: 34em;
+    height: 13em;
+}
+
+.past-editions {
+    height: 27em;
+    border: none;
+}
+
+.past-editions-img {
+    width: 20em;
+    height: 18em;
+    margin: 1em;
+}
+
+.past-editions-img-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    height: 8em;
+}
+
+.partners {
+    display: none;
+}
+
+.rights {
+    background-color: #272a31;
+    color: rgba(255, 255, 255, .8);
+}
+
+.company {
+    margin-right: 3em;
+}
