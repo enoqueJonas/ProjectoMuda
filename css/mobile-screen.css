@@ -4,6 +4,9 @@ body {
   padding: 0;
   top: 0;
   left: 0;
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .header-background {
@@ -24,7 +27,7 @@ body {
 }
 
 .social-media {
-    display: none;
+  display: none;
 }
 
 .nav-bar {
@@ -36,6 +39,10 @@ body {
 }
 
 .nav-menu {
+  display: none;
+}
+
+.nav-menu.active {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -203,7 +210,7 @@ body {
 }
 
 .see-program {
-    display: none;
+  display: none;
 }
 
 .program-btn:hover {
@@ -244,7 +251,7 @@ body {
 }
 
 .featured-speakers-list-item-pc {
-    display: none;
+  display: none;
 }
 
 .featured-speakers-list-item-img img {
@@ -313,5 +320,5 @@ body {
 }
 
 .footer {
-    display: none;
+  display: none;
 }

@@ -49,13 +49,13 @@
 }
 
 .logo-info-title {
-    width: 30em;
+    width: 32em;
     margin-top: 1em;
 }
 
 .logo-info-title h2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: row !important;
     gap: 7px;
 }
 
@@ -78,6 +78,7 @@
 .past-editions-img-wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .footer {

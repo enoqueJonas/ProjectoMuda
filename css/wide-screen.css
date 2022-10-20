@@ -44,18 +44,27 @@
 
 .logo {
     padding-right: 15em;
-    padding-left: 4em;
+    padding-left: 2.3em;
 }
 
 .nav-menu {
     display: flex;
     flex-direction: row;
+    align-items: center;
     order: 1;
+}
+
+.nav-item-1 {
+    margin: 0;
 }
 
 .nav-item {
     list-style: none;
-    padding: 5px 2.4em;
+    padding: 5px .2em;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-item:hover {
@@ -71,6 +80,14 @@
 .nav-link {
     color: rgba(0, 0, 0, .8);
     text-decoration: none;
+}
+
+.nav-link:visited {
+    color: rgba(0, 0, 0, .8);
+  }
+
+.close-btn {
+    display: none;
 }
 
 .header-text {
