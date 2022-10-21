@@ -4,8 +4,10 @@
 
 .title {
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 11em;
+  margin-left: 2em;
 }
 
 .meeting-date-place {

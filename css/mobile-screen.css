@@ -179,8 +179,8 @@ body {
   margin: 0.6em 0;
 }
 
-.program-list-item:hover{
-  border: .6px solid #fff;
+.program-list-item:hover {
+  border: 0.6px solid #fff;
 }
 
 .program-list-item h3 {

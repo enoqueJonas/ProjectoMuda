@@ -3,7 +3,6 @@ const burgerMenuBtn = document.querySelector('.burger-menu');
 const navMenu = document.querySelector('.nav-menu');
 const speakersSection = document.querySelector('.featured-speakers');
 const speakersUl = document.querySelector('.featured-speakers-list');
-const showMoreSpeakersBtn = document.querySelector('.show-more-speakers');
 const featuredSpeakersArr = [
   {
     id: '1',
@@ -94,32 +93,6 @@ function displayFeaturedSpeakers() {
   speakersSection.appendChild(speakersUl);
 }
 
-function displayAllSpeakers() {
-  speakersSection.classList.toggle('active');
-  speakersUl.classList.toggle('active');
-  let list = '';
-  featuredSpeakersArr.forEach((speaker) => {
-    list = `${list}<li class="featured-speakers-list-item">
-            <div class="featured-speakers-list-item-img">
-                <img src= "${speaker.img}" alt="Speaker 1 image">
-            </div>
-            <div class="featured-speaker-info">
-                <h3 class="featured-speaker-name"> ${speaker.name}</h3>
-                <p class="featured-speaker-description">
-                    ${speaker.profession}
-                </p>
-                <div class="speaker-separator"> </div>
-                <p class="speaker-studies">
-                    ${speaker.work}
-                </p>
-            </div>
-            </li>`;
-  });
-  speakersUl.innerHTML = list;
-  speakersSection.appendChild(speakersUl);
-}
-
-showMoreSpeakersBtn.addEventListener('click', displayAllSpeakers);
 window.addEventListener('load', displayFeaturedSpeakers);
 closeMenuBtn.addEventListener('click', toggleMenu);
 burgerMenuBtn.addEventListener('click', toggleMenu);
