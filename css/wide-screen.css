@@ -262,11 +262,11 @@
 }
 
 .rights {
-  width: 100%;
+  width: 80%;
   height: 10em;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 12px 0;
 
@@ -276,11 +276,14 @@
 }
 
 .company {
-  margin: 0 15px;
+  margin: 0 1em;
   font-weight: bold;
+  font-size: 2.5em;
 }
 
 .rights-reserved {
+  width: 20em;
+  margin: 0 1em;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
