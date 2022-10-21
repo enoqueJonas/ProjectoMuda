@@ -1,11 +1,16 @@
 # Portfolio
-This is a website for a nonprofit organization. 
+This is a website for a nonprofit movement. 
 
 ## Built With
 HTML & CSS
 
 ## Live Demo 
+[Projecto Muda](https://enoquejonas.github.io/)
 
+## Preview
+![Mobile Version](./img/mobiel.png)
+
+![PC Version](./img/pc.png)
 
 ## Getting Started
 To set up this project, you just need a pc. Download the files to your computer of choice and everything is set.

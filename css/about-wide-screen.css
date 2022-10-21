@@ -44,7 +44,7 @@
 }
 
 .logo-info {
-  height: 25em;
+  height: 27em;
   box-shadow: 0.3px 0.3px 0.3px black;
 }
 
@@ -60,8 +60,13 @@
 }
 
 .logo-info-img {
-  width: 34em;
-  height: 13em;
+    width: 22em;
+    box-shadow: .6px .6px .6px .6px black;
+}
+
+.logo-info-img img {
+    width: 20em;
+    height: 15em;
 }
 
 .past-editions {
