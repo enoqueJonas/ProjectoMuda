@@ -172,7 +172,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 95%;
+  width: 83%;
   height: 4.6em;
   padding: 3px 16px;
   background: rgb(255 255 255 / 10%);
@@ -280,6 +280,7 @@ body {
   display: flex;
   flex-direction: row;
   margin: 13px 0;
+  width: 85%;
 }
 
 .featured-speakers-list-item-pc {
@@ -351,6 +352,10 @@ body {
   width: 22px;
   height: 22px;
   margin: 4px;
+}
+
+.partners-section {
+  display: none;
 }
 
 .footer {
