@@ -65,13 +65,9 @@
 }
 
 .logo-info-img {
-  width: 95%;
   margin: 30px 0;
-}
-
-.logo-info-img {
   width: 22em;
-  box-shadow: .6px .6px .6px .6px black;
+  box-shadow: 0.6px 0.6px 0.6px 0.6px black;
 }
 
 .logo-info-img img {

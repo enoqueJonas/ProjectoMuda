@@ -60,13 +60,13 @@
 }
 
 .logo-info-img {
-    width: 22em;
-    box-shadow: .6px .6px .6px .6px black;
+  width: 22em;
+  box-shadow: 0.6px 0.6px 0.6px 0.6px black;
 }
 
 .logo-info-img img {
-    width: 20em;
-    height: 15em;
+  width: 20em;
+  height: 15em;
 }
 
 .past-editions {
